@@ -272,7 +272,7 @@ function showRes(){
 function hideGuessNumbers(){
     for (let i=0;i<4;i++){
         let showGuess=document.querySelector(`#guess${i+1}`);
-        showGuess.innerHTML='';
+        showGuess.innerHTML='<img src="img/userEmpty.png" alt="">';
     }
 }
 
