@@ -5,16 +5,16 @@ export default function renderContainer(idStart){
     const stN='stN';
 
     let strRender='';
-    let img0='../../img/0.png';
-    let img1='../../img/1.png';
-    let img2='../../img/2.png';
-    let img3='../../img/3.png';
-    let img4='../../img/4.png';
-    let img5='../../img/5.png';
-    let img6='../../img/6.png';
-    let img7='../../img/7.png';
-    let img8='../../img/8.png';
-    let img9='../../img/9.png';
+    let img0='img/0.png';//'../../img/0.png';
+    let img1='img/1.png';//'../../img/1.png';
+    let img2='img/2.png';//'../../img/2.png';
+    let img3='img/3.png';//'../../img/3.png';
+    let img4='img/4.png';//'../../img/4.png';
+    let img5='img/5.png';//'../../img/5.png';
+    let img6='img/6.png';//'../../img/6.png';
+    let img7='img/7.png';//'../../img/7.png';
+    let img8='img/8.png';//'../../img/8.png';
+    let img9='img/9.png';//'../../img/9.png';
 
     strRender+='<div class="container">';
     strRender+=renderNumber(idStart*10+0, st, img0);
