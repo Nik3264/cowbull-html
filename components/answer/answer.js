@@ -17,8 +17,8 @@ export default function renderAnswer(numberAnswer){
     let img7='../../img/7.png';
     let img8='../../img/8.png';
     let img9='../../img/9.png';
-    let imgEmpty = '../../img/empty.png';
-    let imgUserEmpty = '../../img/userempty.png';
+    let imgEmpty = 'img/empty.png';
+    let imgUserEmpty = 'img/userempty.png';
     let imgCow='../../img/cow.png';
     let imgBull='../../img/bull.png';
     let imgMove = '../../img/move.png';
