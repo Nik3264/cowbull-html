@@ -134,7 +134,7 @@ function setUserNumber(id){
         let responseNumberSelected=document.getElementById(`${responseNumber*10+i}`);
         if (responseNumberSelected.classList.contains('selected')){
             responseNumberSelected.innerHTML=`
-                <img src="../../img/${id-100}.png" alt="">
+                <img src="img/${id-100}.png" alt="">
             `;
             responseNumberSelected.classList.remove('selected');
             response[responseNumber-1][i-1]=id-100;
@@ -220,11 +220,11 @@ function countCowBull(){
 function renderCowBull(cow,bull){
     let responseElement=document.getElementById(`${responseNumber*10+6}`);
     responseElement.innerHTML=`
-                <img src="../../img/${cow}.png" alt="">
+                <img src="img/${cow}.png" alt="">
             `;
     responseElement=document.getElementById(`${responseNumber*10+7}`);
     responseElement.innerHTML=`
-                <img src="../../img/${bull}.png" alt="">
+                <img src="img/${bull}.png" alt="">
             `;
 }
 
@@ -246,7 +246,7 @@ function showGuessNumbers(){
     for (let i=0;i<4;i++){
         let showGuess=document.querySelector(`#guess${i+1}`);
         showGuess.innerHTML=`
-            <img src="../../img/${guessNumbers[i]}.png" alt="">
+            <img src="img/${guessNumbers[i]}.png" alt="">
         `;
     }
 }
