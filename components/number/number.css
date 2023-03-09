@@ -1,0 +1,83 @@
+@keyframes drop {
+    from {
+        opacity: 0;
+        margin-top:550px;
+        margin-right: 500px;
+    }
+    to {
+        opacity: 1;
+        margin-top:0px;
+        margin-right: 0px;
+    }
+}
+/*
+.number{
+    width: 50px;
+    height: 50px;
+    margin:0 2px;
+    background-color: rgb(250, 208, 144);
+    border:2px solid rgb(255, 136, 0);
+    border-radius: 2px;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-name: drop;
+}
+*/
+
+.hidden {
+    visibility: hidden;
+}
+
+.st{
+    /*width: 50px; 
+    height: 50px; */
+    width: 9%;
+    margin-left:2%;
+    margin-right: 2%; 
+    background-color: rgb(250, 208, 144); 
+    outline:2px solid rgba(255, 136, 0, 0.5); 
+    animation-fill-mode: forwards; 
+    animation-duration: 1s; 
+    animation-name: drop;
+}
+
+.stN{
+    width: 17%;
+    margin-top: 10px;
+    /*width: 50px; 
+    height: 50px; */
+    /*margin-left:8px;
+    margin-top: 10px; */
+    background-color: rgb(177, 229, 245); 
+    outline:2px solid rgba(255, 136, 0, 0.5); 
+    animation-fill-mode: forwards; 
+    animation-duration: 1s; 
+    animation-name: drop;
+}
+
+.selected {
+    /*background-image: url('../../img/selected.png');*/
+    outline: 2px solid red;
+    z-index: 10;
+}
+
+.deleted {
+    background-image: url('../../img/delete.png');
+    background-size: 96% 96%;
+    background-repeat: no-repeat;
+    z-index: 10;
+}
+
+.number img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: -10;
+}
+
+.move {
+    width: 90px;
+    height: 30px;
+    margin-left:20px;
+    margin-right: 10px;
+}
