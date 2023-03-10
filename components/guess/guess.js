@@ -2,7 +2,7 @@ import renderNumber from "../number/number.js";
 
 export default function renderGuess(){
     const st='st';
-    const stN='stN';
+    const stN='stN anime-number';
 
     let strRender='';
     let img0='../../img/0.png';

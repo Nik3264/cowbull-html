@@ -2,12 +2,12 @@ import renderNumber from "../number/number.js";
 import renderMove from "../move_button/move_button.js";
 
 export default function renderAnswer(numberAnswer){
-    const st='st';
-    const hidden='st hidden';
-    const stN='stN';
+    const st='st opacity';
+    //const hidden='st hidden';
+    //const stN='stN';
 
     let strRender='';
-    let img0='../../img/0.png';
+    /*let img0='../../img/0.png';
     let img1='../../img/1.png';
     let img2='../../img/2.png';
     let img3='../../img/3.png';
@@ -16,12 +16,12 @@ export default function renderAnswer(numberAnswer){
     let img6='../../img/6.png';
     let img7='../../img/7.png';
     let img8='../../img/8.png';
-    let img9='../../img/9.png';
+    let img9='../../img/9.png';*/
     let imgEmpty = 'img/empty.png';
     let imgUserEmpty = 'img/userempty.png';
-    let imgCow='../../img/cow.png';
+    /*let imgCow='../../img/cow.png';
     let imgBull='../../img/bull.png';
-    let imgMove = '../../img/move.png';
+    let imgMove = '../../img/move.png';*/
 
     strRender+='<div class="container">';
     //strRender+=renderNumber(300, stN, imgEmpty);

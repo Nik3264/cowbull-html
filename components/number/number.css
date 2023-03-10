@@ -28,31 +28,36 @@
     visibility: hidden;
 }
 
-.st{
-    /*width: 50px; 
-    height: 50px; */
-    width: 9%;
-    margin-left:2%;
-    margin-right: 2%; 
-    background-color: rgb(250, 208, 144); 
-    outline:2px solid rgba(255, 136, 0, 0.5); 
+.anime-number {
     animation-fill-mode: forwards; 
     animation-duration: 1s; 
     animation-name: drop;
 }
 
+.opacity {
+    /*opacity:1;*/
+    z-index: 10;
+}
+
+.st{
+    width: 9%;
+    margin:0;
+    /*margin-right: 2%; */
+    background-color: rgb(250, 208, 144); 
+    outline:2px solid rgba(255, 136, 0, 0.5); 
+}
+
+.choose-numbers .container > div:not(:first-child),
+.line-of-numbers .container > div:not(:first-child),
+.answers .container > div{
+    margin: 0 2%;
+}
+
 .stN{
     width: 17%;
     margin-top: 10px;
-    /*width: 50px; 
-    height: 50px; */
-    /*margin-left:8px;
-    margin-top: 10px; */
     background-color: rgb(177, 229, 245); 
     outline:2px solid rgba(255, 136, 0, 0.5); 
-    animation-fill-mode: forwards; 
-    animation-duration: 1s; 
-    animation-name: drop;
 }
 
 .selected {

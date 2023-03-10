@@ -164,12 +164,14 @@ function moveHandler(){
         }
         //вивести результат: cow responseNumber*10+6, bull responseNumber*10+7
         renderCowBull(cow,bull);
+        console.log('1');
         hiddenMoveButton();
-        
+        console.log('2');
         if(!win && responseNumber<maxResponseNumber){
             responseNumber++;
             response[responseNumber-1]=['','','',''];
             addUserResponse();// додавання нового рядка відповіді
+            console.log('3');
         } else {//game over
             showGuessNumbers();
             setTimeout(()=>{
